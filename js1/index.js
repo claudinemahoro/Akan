@@ -17,5 +17,11 @@ function getAkan() {
   if (input='' && gender==''){
     alert("Enter your birthday and gender please!");
   }
+  else if(day == 0 && gender == "Male"){
+    document.getElementById("answer").innerHTML = maleNames[0] + " ,you were born " + days[0];
+    }
+   else if(day == 0 && gender == "Female"){
+      document.getElementById("answer").innerHTML = femaleNames[0] + " ,you were born " + days[0];
+    }
 
 }
