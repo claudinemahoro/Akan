@@ -14,4 +14,8 @@ function getAkan() {
   var maleNames=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
   var femaleAkanNames = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
+  if (input='' && gender==''){
+    alert("Enter your birthday and gender please!");
+  }
+
 }
