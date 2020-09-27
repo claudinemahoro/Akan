@@ -29,5 +29,10 @@ function getAkan() {
   else if(day == 1 && gender == "Female"){
         document.getElementById("answer").innerHTML = femaleNames[1] + " ,you were born " + days[1];
     }
-
+  else if(day == 2 && gender == "Male"){
+      document.getElementById("answer").innerHTML = maleNames[2] + " ,you were born " + days[2];
+      }
+  else if(day == 2 && gender == "Female"){
+        document.getElementById("answer").innerHTML = femaleNames[2] + " ,you were born " + days[2];
+      }
 }
