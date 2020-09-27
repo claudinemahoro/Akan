@@ -12,3 +12,18 @@ h3{
   text-align: center;
   margin-top: 40px;
 }
+.myForm{
+  text-align: center;
+  border: 1px black solid;
+  background-color: cornsilk;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  /* display: inline-block; 
+  margin-left: 100px;*/
+}
+.myForm label{
+  text-align:justify;
+}
