@@ -21,18 +21,42 @@ function getAkan() {
     document.getElementById("answer").innerHTML = maleNames[0] + " ,you were born " + days[0];
     }
    else if(day == 0 && gender == "Female"){
-      document.getElementById("answer").innerHTML = femaleNames[0] + " ,you were born " + days[0];
+    document.getElementById("answer").innerHTML = femaleNames[0] + " ,you were born " + days[0];
     }
   else if(day == 1 && gender == "Male"){
-      document.getElementById("answer").innerHTML = maleNames[1] + " ,you were born " + days[1];
+    document.getElementById("answer").innerHTML = maleNames[1] + " ,you were born " + days[1];
     }
   else if(day == 1 && gender == "Female"){
-        document.getElementById("answer").innerHTML = femaleNames[1] + " ,you were born " + days[1];
+    document.getElementById("answer").innerHTML = femaleNames[1] + " ,you were born " + days[1];
     }
   else if(day == 2 && gender == "Male"){
-      document.getElementById("answer").innerHTML = maleNames[2] + " ,you were born " + days[2];
-      }
+    document.getElementById("answer").innerHTML = maleNames[2] + " ,you were born " + days[2];
+    }
   else if(day == 2 && gender == "Female"){
-        document.getElementById("answer").innerHTML = femaleNames[2] + " ,you were born " + days[2];
-      }
+    document.getElementById("answer").innerHTML = femaleNames[2] + " ,you were born " + days[2];
+    }
+  else if(day == 3 && gender == "Male"){
+    document.getElementById("answer").innerHTML = maleNames[3] + " ,you were born " + days[3];
+    }
+  else if(day == 3 && gender == "Female"){
+    document.getElementById("answer").innerHTML = femaleNames[3] + " ,you were born " + days[3];
+    }
+  else if(day == 4 && gender == "Male"){
+    document.getElementById("answer").innerHTML = maleNames[4] + " ,you were born " + days[4];
+    }
+  else if(day == 4 && gender == "Female"){
+    document.getElementById("answer").innerHTML = femaleNames[4] + " ,you were born " + days[4];
+    }
+  else if(day == 5 && gender == "Male"){
+    document.getElementById("answer").innerHTML = maleNames[5] + " ,you were born " + days[5];
+    }
+  else if(day == 5 && gender == "Female"){
+    document.getElementById("answer").innerHTML = femaleNames[5] + " ,you were born " + days[5];
+    }
+  else if(day == 6 && gender == "Male"){
+    document.getElementById("answer").innerHTML = maleNames[6] + " ,you were born " + days[6];
+    }
+  else if(day == 6 && gender == "Female"){
+    document.getElementById("answer").innerHTML = femaleNames[6] + " ,you were born " + days[6];
+    }
 }
