@@ -26,4 +26,10 @@ h3{
 }
 .myForm label{
   text-align:justify;
+}.jumbotron{
+  background-color: #7E6E13 ;
+}
+}
+footer{
+  text-align: center;
 }
