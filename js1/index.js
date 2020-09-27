@@ -23,5 +23,11 @@ function getAkan() {
    else if(day == 0 && gender == "Female"){
       document.getElementById("answer").innerHTML = femaleNames[0] + " ,you were born " + days[0];
     }
+  else if(day == 1 && gender == "Male"){
+      document.getElementById("answer").innerHTML = maleNames[1] + " ,you were born " + days[1];
+    }
+  else if(day == 1 && gender == "Female"){
+        document.getElementById("answer").innerHTML = femaleNames[1] + " ,you were born " + days[1];
+    }
 
 }
