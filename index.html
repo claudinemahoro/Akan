@@ -42,22 +42,26 @@
      </div>
     </div>
     <h3>Find yours. Let's go!</h3>
+  <form>
     <div class="myForm">
-      <form name="form1">
-        <label>Your birthday:</label>
-        <input type="date" id="birth" name="date" required> <br>
-        <label>Your gender:</label>
-        <input type="radio" name="Gender" value="male" required>
-        <label for="male">Male</label>
-        <input type="radio" name="Gender" value="female" required>
-        <label for="female">Female</label> <br> <br>
-        <button type="submit" id="answer" onclick="getAkan()">Find name</button><br> <br>
-      </form>
-    </div>
-    <div class="result">
-      <h4>Your Akan name is:</h4>
-      <p id="answer"></p>
-  </div> <br> <br>
+    <label for="birth-date">Select your birth date:</label>
+    <input type="date" id="birth" name="date" required><br><br>
+    <label for="gender">Select your gender:</label>
+    <input type="radio" name="Gender" value="Male" required>
+    Male
+    <input type="radio" name="Gender" value="Female" required>
+    Female
+  <br>
+  </div>
+  </form> 
+  <div class="myForm">
+   <label for="answer">Your akanName is:<p id="answer"></p></label>
+  </div>
+  
+   <button type="submit" id="answer" class="myForm1" onclick="getAkan()">Get Akan</button>
+  <br>
+  <br>
+
     <hr>
     <footer>
       copyright&#169;2020 Claudine Mahoro <br>

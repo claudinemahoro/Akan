@@ -21,8 +21,6 @@ h3{
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 100px;
-  /* display: inline-block; 
-  margin-left: 100px;*/
 }
 .myForm label{
   text-align:justify;
@@ -31,4 +29,7 @@ h3{
 }
 footer{
   text-align: center;
+}
+.myForm1{
+  margin-left: 500px;
 }

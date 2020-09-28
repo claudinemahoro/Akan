@@ -14,9 +14,9 @@ This app is expected to behave as follow:
 * Allow the user to select or type in his or her birth-date
 * Allow the user to select his or her gender 
 * Ensure that the data entered are all valid
-* Allow the user to submit hie or her data for calculation
+* Allow the user to submit his or her data for calculation
 * Find the akan name that corresponds to the user's entered data
-* Finally displays the respective akan name to the user 
+* Finally displays the respective akan name and the birth day to the user 
 ## Technologies used:
 * HTML5
 * CSS
@@ -24,7 +24,7 @@ This app is expected to behave as follow:
 ## Link to live site:
 To access this app on github pages,click this link: https://claudinemahoro.github.io/Akan/
 ## Known bugs:
-The output is not displayed as expected; it flashes through in milliseconds.
+The formula used here sometimes gives incorrect day due to rounding in it, and for some data output can't be found(Still working on its solution)
 ## License
 MIT license granted. Copyright (c) 2020 Claudine Mahoro
 
